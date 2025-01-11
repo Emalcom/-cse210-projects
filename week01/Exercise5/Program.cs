@@ -9,8 +9,8 @@ class Program
         String UserName = PromptUserName();
         int favoriteNumber = PromptUserNumber();
         int squaredNumber = SquareNumber();
-        DisplayResult(userNames, squaredNumber);
-
+        DisplayResult(userName, squaredNumber);
+    
     static void DisplayWelcome()
     {
         Console.WriteLine("Welcome to the Program!");
@@ -34,5 +34,4 @@ class Program
         Console.WriteLine($"{userNames},the square of your number is {squaredNumber}");
     }
   }
-
 }
